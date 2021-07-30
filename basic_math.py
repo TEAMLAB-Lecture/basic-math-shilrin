@@ -24,9 +24,9 @@ def get_median(number_list):
     return median
 
 
-a = [95, 61, 96, 45, 27, 86, 33, 66, 4, 39]
-get_greatest(a)
-print(get_greatest(a))
+# a = [95, 61, 96, 45, 27, 86, 33, 66, 4, 39]
+# get_greatest(a)
+# print(get_greatest(a))
 
 # """
 # 여기서 간단한 수학을 하는 프로그램을 만들것입니다. 
