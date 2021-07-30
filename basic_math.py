@@ -23,10 +23,25 @@ def get_mean(number_list):
     mean = a / int(len(number_list))
     return mean
 
+def get_median(number_list):
+    number_list.sort()
+    if int(len(number_list)%2) == 0: 
+        a = int(int(len(number_list)) / 2)
+        print(a)
+        meadian = (number_list[a] + number_list[a-1]) / 2 
+    else:
+        a = int(int(len(number_list)) / 2)
+        meadian = (number_list[a])
 
-# a = [95, 61, 96, 45, 27, 86, 33, 66, 4, 39]
-# get_greatest(a)
-# print(get_greatest(a))
+    return meadian
+
+
+a = [6, 93, 23, 7, 3, 99, 36, 51, 70, 89, 5]
+a.sort()
+print (a)
+get_median(a)
+print(get_median(a))
+
 
 # """
 # 여기서 간단한 수학을 하는 프로그램을 만들것입니다. 
