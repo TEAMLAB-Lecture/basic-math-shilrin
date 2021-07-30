@@ -9,7 +9,6 @@ def get_greatest(number_list):
     greatest_number = number_list[0]
     return greatest_number
 
-
 def get_smallest(number_list):
     number_list.sort()
     samllest_number = number_list[0]
