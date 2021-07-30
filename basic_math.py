@@ -15,13 +15,13 @@ def get_smallest(number_list):
     return samllest_number
 
 
-def get_median(number_list):
+def get_mean(number_list):
     a = 0
     for i in number_list:
        print(i)
        a += i
-    median = a / int(len(number_list))
-    return median
+    mean = a / int(len(number_list))
+    return mean
 
 
 # a = [95, 61, 96, 45, 27, 86, 33, 66, 4, 39]
